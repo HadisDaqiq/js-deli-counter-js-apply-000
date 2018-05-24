@@ -1,22 +1,20 @@
 
-
+var num = 0 ;
+  [ali, alex, alia]
 var takeANumber =  function (katzDeli) {
 
   if (katzDeli.length > 0);
-    var num = 0 ;
     num++;
     katzDeli.push(num);
     return ('Welcome, You are number ' + katzDeli.length + ' in line.')
-}
-
+} 
 function nowServing (katzDeliLine) { 
  if(katzDeliLine.length===0) { 
 return 'There is nobody waiting to be served!'; 
- }
+ } 
  var customer = katzDeliLine.shift(); 
  return "Currently serving " + customer + "."; 
  }
-
 
 
 function currentLine(katzDeliLine){
