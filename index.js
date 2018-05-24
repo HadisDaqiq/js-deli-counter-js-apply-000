@@ -1,8 +1,9 @@
 
 
 var takeANumber =  function (katzDeli) {
-  var num = 0;
+
   if (katzDeli.length > 0);
+    var num = 0 ;
     num++;
     katzDeli.push(num);
     return ('Welcome, You are number ' + katzDeli.length + ' in line.')
